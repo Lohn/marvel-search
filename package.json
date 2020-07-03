@@ -32,7 +32,7 @@
     "deploy": "./scripts/deploy"
   },
   "devDependencies": {
-    "algoliasearch": "3.13.0",
+    "algoliasearch": "4.3.0",
     "auto-reload-brunch": "2.0.0",
     "babel-brunch": "6.0.2",
     "babel-cli": "6.7.5",

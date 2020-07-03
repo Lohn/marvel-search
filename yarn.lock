@@ -2,6 +2,96 @@
 # yarn lockfile v1
 
 
+"@algolia/cache-browser-local-storage@4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@algolia/cache-browser-local-storage/-/cache-browser-local-storage-4.3.0.tgz#e284e2c2418a1c19d9a4c6553ffb151525332084"
+  dependencies:
+    "@algolia/cache-common" "4.3.0"
+
+"@algolia/cache-common@4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@algolia/cache-common/-/cache-common-4.3.0.tgz#3a257b184bce678e524e354c4f4abd3235ccd24d"
+
+"@algolia/cache-in-memory@4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@algolia/cache-in-memory/-/cache-in-memory-4.3.0.tgz#d1f3920b56f1ce70bafda515f42a82aa8effedf8"
+  dependencies:
+    "@algolia/cache-common" "4.3.0"
+
+"@algolia/client-account@4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@algolia/client-account/-/client-account-4.3.0.tgz#84401dc17a9cb19fb8da71e0ee478aa80fba8064"
+  dependencies:
+    "@algolia/client-common" "4.3.0"
+    "@algolia/client-search" "4.3.0"
+    "@algolia/transporter" "4.3.0"
+
+"@algolia/client-analytics@4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@algolia/client-analytics/-/client-analytics-4.3.0.tgz#c9c84965969a485b998189c78fb6a8847af51f34"
+  dependencies:
+    "@algolia/client-common" "4.3.0"
+    "@algolia/client-search" "4.3.0"
+    "@algolia/requester-common" "4.3.0"
+    "@algolia/transporter" "4.3.0"
+
+"@algolia/client-common@4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@algolia/client-common/-/client-common-4.3.0.tgz#d386f67a8068e5ca2d2a00d37fab10a653744951"
+  dependencies:
+    "@algolia/requester-common" "4.3.0"
+    "@algolia/transporter" "4.3.0"
+
+"@algolia/client-recommendation@4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@algolia/client-recommendation/-/client-recommendation-4.3.0.tgz#4dce100c85f044b9070ba4a4e5b129f4d466d4b3"
+  dependencies:
+    "@algolia/client-common" "4.3.0"
+    "@algolia/requester-common" "4.3.0"
+    "@algolia/transporter" "4.3.0"
+
+"@algolia/client-search@4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@algolia/client-search/-/client-search-4.3.0.tgz#9f28df3b97d0b26605b9d6c5e69ea0df39e81c53"
+  dependencies:
+    "@algolia/client-common" "4.3.0"
+    "@algolia/requester-common" "4.3.0"
+    "@algolia/transporter" "4.3.0"
+
+"@algolia/logger-common@4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@algolia/logger-common/-/logger-common-4.3.0.tgz#ab01dd0458f9e5c1dd8e9ea43d604d7e4b76ad33"
+
+"@algolia/logger-console@4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@algolia/logger-console/-/logger-console-4.3.0.tgz#7fc504328e3b0b7834ad21bc8f791d50f6aa791b"
+  dependencies:
+    "@algolia/logger-common" "4.3.0"
+
+"@algolia/requester-browser-xhr@4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@algolia/requester-browser-xhr/-/requester-browser-xhr-4.3.0.tgz#9ba90588224809797f05f966d3388f4cfb6b2c94"
+  dependencies:
+    "@algolia/requester-common" "4.3.0"
+
+"@algolia/requester-common@4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@algolia/requester-common/-/requester-common-4.3.0.tgz#1529e51082a9b43d324290f3c07b6acb7cc34cd8"
+
+"@algolia/requester-node-http@4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@algolia/requester-node-http/-/requester-node-http-4.3.0.tgz#ec9b4dbf7f8e563927b6e96c7c68e4b21d17284d"
+  dependencies:
+    "@algolia/requester-common" "4.3.0"
+
+"@algolia/transporter@4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@algolia/transporter/-/transporter-4.3.0.tgz#17dcafcd20bb30d2bef8886c34e86c5d47e1c560"
+  dependencies:
+    "@algolia/cache-common" "4.3.0"
+    "@algolia/logger-common" "4.3.0"
+    "@algolia/requester-common" "4.3.0"
+
 "@babel/code-frame@^7.0.0":
   version "7.10.4"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.10.4.tgz#168da1a36e90da68ae8d49c0f1b48c7c6249213a"
@@ -72,10 +162,6 @@ acorn@^7.2.0:
   version "7.3.1"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.3.1.tgz#85010754db53c3fbaf3b9ea3e083aa5c5d147ffd"
 
-agentkeepalive@^2.0.3:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/agentkeepalive/-/agentkeepalive-2.2.0.tgz#c5d1bd4b129008f1163f236f86e5faea2026e2ef"
-
 ajv@^4.9.1:
   version "4.11.8"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-4.11.8.tgz#82ffb02b29e662ae53bdc20af15947706739c536"
@@ -92,27 +178,24 @@ ajv@^6.10.0, ajv@^6.10.2:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-algolia-ms@0.7.1-fix-future-reserved-words:
-  version "0.7.1-fix-future-reserved-words"
-  resolved "https://registry.yarnpkg.com/algolia-ms/-/algolia-ms-0.7.1-fix-future-reserved-words.tgz#fa2e440152706a055283ac95468beee3bea5f2b3"
-
-algoliasearch@3.13.0:
-  version "3.13.0"
-  resolved "https://registry.yarnpkg.com/algoliasearch/-/algoliasearch-3.13.0.tgz#4fb4c92a6f8f6bddd775ab4cbea04a75cef1dc75"
+algoliasearch@4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/algoliasearch/-/algoliasearch-4.3.0.tgz#4f6db58d405d7ecc38073e17c2996066455e9979"
   dependencies:
-    agentkeepalive "^2.0.3"
-    debug "^2.2.0"
-    debug-ms-fix-yui-compressor "2.2.2-future-reserved-word-fix-ms"
-    envify "^3.4.0"
-    es6-promise "^3.0.2"
-    events "^1.1.0"
-    inherits "^2.0.1"
-    load-script "^1.0.0"
-    lodash "^3.10.1"
-    lodash-compat "^3.10.1"
-    querystring "^0.2.0"
-    semver "^5.0.3"
-    tunnel-agent "^0.4.1"
+    "@algolia/cache-browser-local-storage" "4.3.0"
+    "@algolia/cache-common" "4.3.0"
+    "@algolia/cache-in-memory" "4.3.0"
+    "@algolia/client-account" "4.3.0"
+    "@algolia/client-analytics" "4.3.0"
+    "@algolia/client-common" "4.3.0"
+    "@algolia/client-recommendation" "4.3.0"
+    "@algolia/client-search" "4.3.0"
+    "@algolia/logger-common" "4.3.0"
+    "@algolia/logger-console" "4.3.0"
+    "@algolia/requester-browser-xhr" "4.3.0"
+    "@algolia/requester-common" "4.3.0"
+    "@algolia/requester-node-http" "4.3.0"
+    "@algolia/transporter" "4.3.0"
 
 amdefine@>=0.0.4:
   version "1.0.1"
@@ -252,10 +335,6 @@ assert@^1.3.0, assert@~1.3.0:
   resolved "https://registry.yarnpkg.com/assert/-/assert-1.3.0.tgz#03939a622582a812cc202320a0b9a56c9b815849"
   dependencies:
     util "0.10.3"
-
-ast-types@0.9.6:
-  version "0.9.6"
-  resolved "https://registry.yarnpkg.com/ast-types/-/ast-types-0.9.6.tgz#102c9e9e9005d3e7e3829bf0c4fa24ee862ee9b9"
 
 astral-regex@^1.0.0:
   version "1.0.0"
@@ -781,10 +860,6 @@ balanced-match@^0.4.1:
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-0.4.2.tgz#cb3f3e3c732dc0f01ee70b403f302e61d7709838"
 
-base62@^1.1.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/base62/-/base62-1.2.0.tgz#31e7e560dc846c9f44c1a531df6514da35474157"
-
 base64-js@^1.0.2:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.2.0.tgz#a39992d723584811982be5e290bb6a53d86700f1"
@@ -1189,25 +1264,11 @@ commander@2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.3.0.tgz#fd430e889832ec353b9acd1de217c11cb3eef873"
 
-commander@2.9.0, commander@^2.0.0, commander@^2.5.0, commander@^2.8.1, commander@^2.9.0, commander@~2.9.0:
+commander@2.9.0, commander@^2.0.0, commander@^2.8.1, commander@^2.9.0, commander@~2.9.0:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.9.0.tgz#9c99094176e12240cb22d6c5146098400fe0f7d4"
   dependencies:
     graceful-readlink ">= 1.0.0"
-
-commoner@^0.10.1:
-  version "0.10.8"
-  resolved "https://registry.yarnpkg.com/commoner/-/commoner-0.10.8.tgz#34fc3672cd24393e8bb47e70caa0293811f4f2c5"
-  dependencies:
-    commander "^2.5.0"
-    detective "^4.3.1"
-    glob "^5.0.15"
-    graceful-fs "^4.1.2"
-    iconv-lite "^0.4.5"
-    mkdirp "^0.5.0"
-    private "^0.1.6"
-    q "^1.1.2"
-    recast "^0.11.17"
 
 commonjs-require-definition@~0.3.0:
   version "0.3.0"
@@ -1409,12 +1470,6 @@ dashdash@^1.12.0:
   dependencies:
     assert-plus "^1.0.0"
 
-debug-ms-fix-yui-compressor@2.2.2-future-reserved-word-fix-ms:
-  version "2.2.2-future-reserved-word-fix-ms"
-  resolved "https://registry.yarnpkg.com/debug-ms-fix-yui-compressor/-/debug-ms-fix-yui-compressor-2.2.2-future-reserved-word-fix-ms.tgz#500947391250ec13c020b15c901365f1a01620ec"
-  dependencies:
-    algolia-ms "0.7.1-fix-future-reserved-words"
-
 debug@*, debug@^4.0.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
@@ -1499,7 +1554,7 @@ detect-indent@^4.0.0:
   dependencies:
     repeating "^2.0.0"
 
-detective@^4.3.1, detective@~4.3.0:
+detective@~4.3.0:
   version "4.3.2"
   resolved "https://registry.yarnpkg.com/detective/-/detective-4.3.2.tgz#77697e2e7947ac3fe7c8e26a6d6f115235afa91c"
   dependencies:
@@ -1634,13 +1689,6 @@ entities@~1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/entities/-/entities-1.1.1.tgz#6e5c2d0a5621b5dadaecef80b90edfb5cd7772f0"
 
-envify@^3.4.0:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/envify/-/envify-3.4.1.tgz#d7122329e8df1688ba771b12501917c9ce5cbce8"
-  dependencies:
-    jstransform "^11.0.3"
-    through "~2.3.4"
-
 error-ex@^1.2.0:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/error-ex/-/error-ex-1.3.1.tgz#f855a86ce61adc4e8621c3cda21e7a7612c3a8dc"
@@ -1667,10 +1715,6 @@ es-to-primitive@^1.1.1:
     is-callable "^1.1.1"
     is-date-object "^1.0.1"
     is-symbol "^1.0.1"
-
-es6-promise@^3.0.2:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/es6-promise/-/es6-promise-3.3.1.tgz#a08cdde84ccdbf34d027a1451bc91d4bcd28a613"
 
 escape-html@^1.0.1, escape-html@~1.0.3:
   version "1.0.3"
@@ -1777,10 +1821,6 @@ espree@^7.1.0:
     acorn-jsx "^5.2.0"
     eslint-visitor-keys "^1.2.0"
 
-esprima-fb@^15001.1.0-dev-harmony-fb:
-  version "15001.1.0-dev-harmony-fb"
-  resolved "https://registry.yarnpkg.com/esprima-fb/-/esprima-fb-15001.1.0-dev-harmony-fb.tgz#30a947303c6b8d5e955bee2b99b1d233206a6901"
-
 esprima@^2.7.1:
   version "2.7.3"
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-2.7.3.tgz#96e3b70d5779f6ad49cd032673d1c312767ba581"
@@ -1788,10 +1828,6 @@ esprima@^2.7.1:
 esprima@^4.0.0:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
-
-esprima@~3.1.0:
-  version "3.1.3"
-  resolved "https://registry.yarnpkg.com/esprima/-/esprima-3.1.3.tgz#fdca51cee6133895e3c88d535ce49dbff62a4633"
 
 esquery@^1.2.0:
   version "1.3.1"
@@ -1834,7 +1870,7 @@ eventemitter3@1.x.x:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-1.2.0.tgz#1c86991d816ad1e504750e73874224ecf3bec508"
 
-events@^1.1.0, events@~1.1.0:
+events@~1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/events/-/events-1.1.1.tgz#9ebdb7635ad099c70dcc4c2a1f5004288e8bd924"
 
@@ -2215,7 +2251,7 @@ glob@6.0.1, glob@^6.0.1, glob@~6.0.1:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-glob@^5.0.15, glob@^5.0.5:
+glob@^5.0.5:
   version "5.0.15"
   resolved "https://registry.yarnpkg.com/glob/-/glob-5.0.15.tgz#1bc936b9e02f4a603fcc222ecf7633d30b8b93b1"
   dependencies:
@@ -2490,10 +2526,6 @@ http-signature@~1.1.0:
 https-browserify@~0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-0.0.1.tgz#3f91365cabe60b77ed0ebba24b454e3e09d95a82"
-
-iconv-lite@^0.4.5:
-  version "0.4.17"
-  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.17.tgz#4fdaa3b38acbc2c031b045d0edcdfe1ecab18c8d"
 
 ieee754@^1.1.4:
   version "1.1.8"
@@ -2887,16 +2919,6 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.3.6"
 
-jstransform@^11.0.3:
-  version "11.0.3"
-  resolved "https://registry.yarnpkg.com/jstransform/-/jstransform-11.0.3.tgz#09a78993e0ae4d4ef4487f6155a91f6190cb4223"
-  dependencies:
-    base62 "^1.1.0"
-    commoner "^0.10.1"
-    esprima-fb "^15001.1.0-dev-harmony-fb"
-    object-assign "^2.0.0"
-    source-map "^0.4.2"
-
 kind-of@^3.0.2:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-3.2.2.tgz#31ea21a734bab9bbb0f32466d893aea51e4a3c64"
@@ -2936,14 +2958,6 @@ load-json-file@^1.0.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
     strip-bom "^2.0.0"
-
-load-script@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/load-script/-/load-script-1.0.0.tgz#0491939e0bee5643ee494a7e3da3d2bac70c6ca4"
-
-lodash-compat@^3.10.1:
-  version "3.10.2"
-  resolved "https://registry.yarnpkg.com/lodash-compat/-/lodash-compat-3.10.2.tgz#c6940128a9d30f8e902cd2cf99fd0cba4ecfc183"
 
 lodash._baseassign@^3.0.0:
   version "3.2.0"
@@ -3055,7 +3069,7 @@ lodash@4.11.1:
   version "4.11.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.11.1.tgz#a32106eb8e2ec8e82c241611414773c9df15f8bc"
 
-lodash@^3.10.0, lodash@^3.10.1, lodash@^3.2.0:
+lodash@^3.10.0, lodash@^3.2.0:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
@@ -3689,7 +3703,7 @@ prettyjson@^1.1.0:
     colors "^1.1.2"
     minimist "^1.2.0"
 
-private@^0.1.6, private@~0.1.5:
+private@^0.1.6:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.7.tgz#68ce5e8a1ef0a23bb570cc28537b5332aba63ef1"
 
@@ -3771,7 +3785,7 @@ q-io@1.13.2:
     qs "^1.2.1"
     url2 "^0.0.0"
 
-q@1.4.1, q@^1.0.1, q@^1.1.2:
+q@1.4.1, q@^1.0.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/q/-/q-1.4.1.tgz#55705bcd93c5f3673530c2c2cbc0c2b3addc286e"
 
@@ -3906,15 +3920,6 @@ readdirp@^2.0.0:
     minimatch "^3.0.2"
     readable-stream "^2.0.2"
     set-immediate-shim "^1.0.1"
-
-recast@^0.11.17:
-  version "0.11.23"
-  resolved "https://registry.yarnpkg.com/recast/-/recast-0.11.23.tgz#451fd3004ab1e4df9b4e4b66376b2a21912462d3"
-  dependencies:
-    ast-types "0.9.6"
-    esprima "~3.1.0"
-    private "~0.1.5"
-    source-map "~0.5.0"
 
 redent@^1.0.0:
   version "1.0.0"
@@ -4165,7 +4170,7 @@ semver-truncate@^1.0.0:
   dependencies:
     semver "^5.3.0"
 
-"semver@2 || 3 || 4 || 5", semver@^5.0.3, semver@^5.3.0, semver@~5.3.0:
+"semver@2 || 3 || 4 || 5", semver@^5.3.0, semver@~5.3.0:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.3.0.tgz#9b2ce5d3de02d17c6012ad326aa6b4d0cf54f94f"
 
@@ -4506,10 +4511,6 @@ text-table@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
 
-through@~2.3.4:
-  version "2.3.8"
-  resolved "https://registry.yarnpkg.com/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
-
 timers-browserify@~1.4.2:
   version "1.4.2"
   resolved "https://registry.yarnpkg.com/timers-browserify/-/timers-browserify-1.4.2.tgz#c9c58b575be8407375cb5e2462dacee74359f41d"
@@ -4556,15 +4557,15 @@ tty-browserify@~0.0.0:
   version "0.0.0"
   resolved "https://registry.yarnpkg.com/tty-browserify/-/tty-browserify-0.0.0.tgz#a157ba402da24e9bf957f9aa69d524eed42901a6"
 
-tunnel-agent@^0.4.1, tunnel-agent@~0.4.0, tunnel-agent@~0.4.1:
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/tunnel-agent/-/tunnel-agent-0.4.3.tgz#6373db76909fe570e08d73583365ed828a74eeeb"
-
 tunnel-agent@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/tunnel-agent/-/tunnel-agent-0.6.0.tgz#27a5dea06b36b04a0a9966774b290868f0fc40fd"
   dependencies:
     safe-buffer "^5.0.1"
+
+tunnel-agent@~0.4.0, tunnel-agent@~0.4.1:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/tunnel-agent/-/tunnel-agent-0.4.3.tgz#6373db76909fe570e08d73583365ed828a74eeeb"
 
 tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
