@@ -44,7 +44,7 @@
     "bluebird": "3.7.2",
     "brunch": "2.4.2",
     "cheerio": "0.20.0",
-    "eslint": "1.10.3",
+    "eslint": "7.3.1",
     "eslint-config-airbnb": "2.1.1",
     "eslint-config-algolia": "4.5.0",
     "eslint-plugin-algolia": "1.5.0",
