@@ -57,7 +57,7 @@
     "json-stable-stringify": "1.0.0",
     "jsonfile": "2.2.3",
     "lodash": "4.17.15",
-    "mkdirp": "0.5.1",
+    "mkdirp": "1.0.4",
     "mocha": "2.3.4",
     "object-hash": "1.0.0",
     "request": "2.88.2",
