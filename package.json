@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "algoliasearch": "4.3.0",
-    "auto-reload-brunch": "2.0.0",
+    "auto-reload-brunch": "2.7.1",
     "babel-brunch": "6.0.2",
     "babel-cli": "6.7.5",
     "babel-core": "6.26.3",
