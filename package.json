@@ -67,7 +67,7 @@
     "sinon": "1.17.2",
     "wiki-infobox": "pixelastic/wiki-infobox#20822c391ebdef646c404a00a8b2bda01aa7d66f",
     "wikidata-sdk": "2.2.1",
-    "x-ray": "2.0.2"
+    "x-ray": "2.3.4"
   },
   "dependencies": {}
 }
