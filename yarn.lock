@@ -1689,9 +1689,9 @@ escodegen@^1.6.1:
   optionalDependencies:
     source-map "~0.2.0"
 
-eslint-config-airbnb@2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-airbnb/-/eslint-config-airbnb-2.1.1.tgz#7aade3205423d169f66eeb15284b3da3482be39a"
+eslint-config-airbnb@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-airbnb/-/eslint-config-airbnb-5.0.0.tgz#16886a3a613028f62213c6330e9b42554364ec3f"
 
 eslint-config-algolia@4.5.0:
   version "4.5.0"
