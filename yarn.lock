@@ -3990,9 +3990,9 @@ samsam@1.1.2, samsam@~1.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/samsam/-/samsam-1.1.2.tgz#bec11fdc83a9fda063401210e40176c3024d1567"
 
-sanitize-filename@1.5.3:
-  version "1.5.3"
-  resolved "https://registry.yarnpkg.com/sanitize-filename/-/sanitize-filename-1.5.3.tgz#4c35f7fb9572bdcee2f426974210467e57f6b574"
+sanitize-filename@1.6.3:
+  version "1.6.3"
+  resolved "https://registry.yarnpkg.com/sanitize-filename/-/sanitize-filename-1.6.3.tgz#755ebd752045931977e30b2025d340d7c9090378"
   dependencies:
     truncate-utf8-bytes "^1.0.0"
 
